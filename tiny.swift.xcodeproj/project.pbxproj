@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F20030121E47133900FE374F /* UNUserNotificationCenter+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20030111E47133900FE374F /* UNUserNotificationCenter+.swift */; };
 		F220CD301E44B1AB0051CF4A /* String+localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = F220CD2E1E44B1AB0051CF4A /* String+localized.swift */; };
 		F220CD311E44B1AB0051CF4A /* UIAlertController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F220CD2F1E44B1AB0051CF4A /* UIAlertController+.swift */; };
 		F220CD331E44B41C0051CF4A /* DispatchQueue+runningMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F220CD321E44B41C0051CF4A /* DispatchQueue+runningMain.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F20030111E47133900FE374F /* UNUserNotificationCenter+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UNUserNotificationCenter+.swift"; sourceTree = "<group>"; };
 		F220CD2E1E44B1AB0051CF4A /* String+localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+localized.swift"; sourceTree = "<group>"; };
 		F220CD2F1E44B1AB0051CF4A /* UIAlertController+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+.swift"; sourceTree = "<group>"; };
 		F220CD321E44B41C0051CF4A /* DispatchQueue+runningMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+runningMain.swift"; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 				F220CD2E1E44B1AB0051CF4A /* String+localized.swift */,
 				F220CD2F1E44B1AB0051CF4A /* UIAlertController+.swift */,
 				F220CD321E44B41C0051CF4A /* DispatchQueue+runningMain.swift */,
+				F20030111E47133900FE374F /* UNUserNotificationCenter+.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -156,6 +159,7 @@
 				F220CD311E44B1AB0051CF4A /* UIAlertController+.swift in Sources */,
 				F220CD331E44B41C0051CF4A /* DispatchQueue+runningMain.swift in Sources */,
 				F2B61AA01E44AE15003DF6DB /* ViewController.swift in Sources */,
+				F20030121E47133900FE374F /* UNUserNotificationCenter+.swift in Sources */,
 				F220CD301E44B1AB0051CF4A /* String+localized.swift in Sources */,
 				F2B61A9E1E44AE15003DF6DB /* AppDelegate.swift in Sources */,
 			);
