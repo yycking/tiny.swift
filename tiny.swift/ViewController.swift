@@ -18,9 +18,8 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        let deadlineTime = DispatchTime.now() + .seconds(1)
-        DispatchQueue.main.asyncAfter(deadline: deadlineTime) {
-            UIAlertController(title: "Oh!").addOk().show()
+        DispatchQueue.runningMain(after: 3) {
+            UIAlertController(title: "welcome").addOk().show()
         }
     }
 
