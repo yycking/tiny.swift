@@ -13,6 +13,7 @@ extension String {
         var localized = Bundle.main.localizedString(forKey:self, value: nil, table:nil)
         
         if let osBundle = Bundle(identifier: "com.apple.UIKit"), localized == self {
+            // open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/UIKit.framework/English.lproj/Localizable.strings Here you see a wide variety of translations that Apple uses
             localized = osBundle.localizedString(forKey:self, value: nil, table:nil)
         }
         
