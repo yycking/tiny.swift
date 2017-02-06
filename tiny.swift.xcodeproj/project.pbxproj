@@ -10,7 +10,7 @@
 		F20030121E47133900FE374F /* UNUserNotificationCenter+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20030111E47133900FE374F /* UNUserNotificationCenter+.swift */; };
 		F220CD301E44B1AB0051CF4A /* String+localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = F220CD2E1E44B1AB0051CF4A /* String+localized.swift */; };
 		F220CD311E44B1AB0051CF4A /* UIAlertController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F220CD2F1E44B1AB0051CF4A /* UIAlertController+.swift */; };
-		F220CD331E44B41C0051CF4A /* DispatchQueue+runningMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F220CD321E44B41C0051CF4A /* DispatchQueue+runningMain.swift */; };
+		F220CD331E44B41C0051CF4A /* DispatchQueue+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F220CD321E44B41C0051CF4A /* DispatchQueue+.swift */; };
 		F2B61A9E1E44AE15003DF6DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B61A9D1E44AE15003DF6DB /* AppDelegate.swift */; };
 		F2B61AA01E44AE15003DF6DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B61A9F1E44AE15003DF6DB /* ViewController.swift */; };
 		F2B61AA31E44AE15003DF6DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B61AA11E44AE15003DF6DB /* Main.storyboard */; };
@@ -22,7 +22,7 @@
 		F20030111E47133900FE374F /* UNUserNotificationCenter+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UNUserNotificationCenter+.swift"; sourceTree = "<group>"; };
 		F220CD2E1E44B1AB0051CF4A /* String+localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+localized.swift"; sourceTree = "<group>"; };
 		F220CD2F1E44B1AB0051CF4A /* UIAlertController+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+.swift"; sourceTree = "<group>"; };
-		F220CD321E44B41C0051CF4A /* DispatchQueue+runningMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+runningMain.swift"; sourceTree = "<group>"; };
+		F220CD321E44B41C0051CF4A /* DispatchQueue+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+.swift"; sourceTree = "<group>"; };
 		F2B61A9A1E44AE15003DF6DB /* tiny.swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tiny.swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B61A9D1E44AE15003DF6DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2B61A9F1E44AE15003DF6DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 			children = (
 				F220CD2E1E44B1AB0051CF4A /* String+localized.swift */,
 				F220CD2F1E44B1AB0051CF4A /* UIAlertController+.swift */,
-				F220CD321E44B41C0051CF4A /* DispatchQueue+runningMain.swift */,
+				F220CD321E44B41C0051CF4A /* DispatchQueue+.swift */,
 				F20030111E47133900FE374F /* UNUserNotificationCenter+.swift */,
 			);
 			path = Sources;
@@ -157,7 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F220CD311E44B1AB0051CF4A /* UIAlertController+.swift in Sources */,
-				F220CD331E44B41C0051CF4A /* DispatchQueue+runningMain.swift in Sources */,
+				F220CD331E44B41C0051CF4A /* DispatchQueue+.swift in Sources */,
 				F2B61AA01E44AE15003DF6DB /* ViewController.swift in Sources */,
 				F20030121E47133900FE374F /* UNUserNotificationCenter+.swift in Sources */,
 				F220CD301E44B1AB0051CF4A /* String+localized.swift in Sources */,

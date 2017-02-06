@@ -11,7 +11,7 @@
 
 #### DispatchQueue
 
-`DispatchQueue.runningMain(after: 3) {	}`
+`DispatchQueue.main.async(after: 3) {	}`
 
 ***
 
@@ -20,7 +20,7 @@
 ####  UIAlertController
 `UIAlertController(title: "welcome").addOk().show()`
 
-auto close after 3 sconds
+auto close after 3 sconds  
 `UIAlertController(title: "welcome").show()`
 
 ### UserNotifications

@@ -28,11 +28,11 @@ extension UIAlertController {
     
     public func show() {
         guard let vc = UIApplication.shared.keyWindow?.rootViewController else { return }
-        DispatchQueue.runningMain {
+        DispatchQueue.main.async {
             vc.present(self, animated: true, completion: nil)
             
             guard self.actions.count != 0 else { return }
-            DispatchQueue.runningMain(after: 2) { [weak self] in
+            DispatchQueue.main.async(after: 2) { [weak self] in
                 self?.close()
             }
         }
