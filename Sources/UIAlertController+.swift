@@ -29,16 +29,26 @@ extension UIAlertController {
     public func show() {
         guard let vc = UIApplication.shared.keyWindow?.rootViewController else { return }
         DispatchQueue.main.async {
-            vc.present(self, animated: true, completion: nil)
-            
-            guard self.actions.count != 0 else { return }
-            DispatchQueue.main.async(after: 2) { [weak self] in
-                self?.close()
+            let animated = (self.actions.count != 0)
+            vc.present(self, animated: animated) {
+                // auto close if actions is empty
+                guard
+                    let superview = self.view.superview,
+                    self.actions.count == 0
+                    else { return }
+                
+                superview.subviews.first?.backgroundColor = UIColor.clear
+                
+                UIView.animate(withDuration: 2, animations: {
+                    self.view.alpha = 0;
+                }, completion: { _ in
+                    self.close(animated: false)
+                })
             }
         }
     }
     
-    public func close() {
-        self.dismiss(animated: true, completion: nil)
+    public func close(animated: Bool = true) {
+        self.dismiss(animated: animated, completion: nil)
     }
 }

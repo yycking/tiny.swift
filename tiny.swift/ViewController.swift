@@ -18,8 +18,8 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        DispatchQueue.main.async(after: 3) {
-            UIAlertController(title: "welcome").addOk().show()
+        DispatchQueue.main.async(after: 1) {
+            UIAlertController(title: "welcome").show()
         }
     }
 
